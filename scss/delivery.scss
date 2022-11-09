@@ -1,0 +1,39 @@
+
+
+.delivery__content{
+    height: 70vh;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+.delivery__title{
+    align-self: center;
+    justify-self: center;
+    grid-area: 1 / 2 / 1 / 2;
+    color: #00BFFF;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.delivery__text{
+   grid-area: 2 / 2 / 2 / 2;
+    text-align: center;
+   justify-self: center;
+   color: #fff;
+   font-family: $f;
+}
+
+.map{
+    grid-area: 3 / 2 / 3 / 2;
+    max-width: 600px;
+}
+
+@media(max-width: 600px){
+    .map{
+        width: 300px;
+        height: 200px;
+    }
+}
+

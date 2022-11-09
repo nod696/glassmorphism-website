@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="circle1"></div>
+    <div class="circle2"> </div>
+    <div class="circle3"></div>
+    <main class="main__background">
+       
+       
+        <section class="main">
+                <div class="main__inner">
+                    <button class="nav__button"></button>
+                    <header class="header">
+                        <nav class="header__nav">
+                            <a href="#">
+                                <img src="images/logo.png" alt="#" class="logo">
+                            </a>
+                            <ul class="header__navigation">
+            
+                                <li class="nav__link"><a href="index.html" class="nav__item">Главная</a></li>
+                                <li class="nav__link"><a href="about.html" class="nav__item">О нас</a></li>
+                                <li class="nav__link">
+                                    <a href="#" class="nav__item nav__item-active">Каталог</a>
+                                    
+                                </li>
+                                <li class="nav__link"><a href="delivery.html" class="nav__item">Контакты</a></li>
+                                <li class="nav__link"><button class="nav__item autorization">Войти</button></li>
+                                
+                            </ul>
+                            <div class="social__media">
+                                <a href="shop.html" class="shop__link">
+                                    <img src="images/shop.png" alt="" class="shop__icon">
+                                </a>
+                                <a href="#">
+                                    <img src="images/1.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/2.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/3.svg" alt="#" class="social">
+                                </a>
+                            </div>
+                         
+                        </nav>
+                    </header>
+                      <!-- Каталог -->
+                    <div class="catalog__content">
+                        <p class="promo__error">Доступно только авторизованным пользователям</p>
+                        <a href="#" class="promotion">
+                            <img src="images/promo.png" alt="#" class="promo">
+                        </a>
+                        <h1 class="about__title">Каталог</h1>
+                        <div class="catalog__items">
+                            <div class="catalog__item">
+                                <a href="europe.html" class="catalog__link">
+                                    <img src="images/europe-removebg-preview.png" alt="#" class="catalog__image">
+                                    <p class="catalog_-text">Европа</p>
+                                </a>
+                            </div>
+                            <div class="catalog__item">
+                                <a href="asia.html" class="catalog__link">
+                                    <img src="images/asia-removebg-preview.png" alt="#" class="catalog__image">
+                                    <p class="catalog_-text">Азия</p>
+                                </a>
+                            </div>
+                            <div class="catalog__item">
+                                <a href="america.html" class="catalog__link">
+                                    <img src="images/america-removebg-preview.png" alt="#" class="catalog__image">
+                                    <p class="catalog_-text">Америка</p>
+                                </a>
+                            </div>
+                            <div class="catalog__item">
+                                <a href="africa.html" class="catalog__link">
+                                    <img src="images/africa-removebg-preview.png" alt="#" class="catalog__image">
+                                    <p class="catalog_-text">Африка</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="autorization__wrapper">
+                    <button class="close__btn">
+                        <img src="images/close.png" alt="" class="close__icon">
+                    </button>
+                    <form class="autorization__form">
+                        <h2 class="autorization__title">Заполните поля для входа</h2>
+                        <input type="email" class="email" placeholder="Ваш email">
+                        <input type="password" class="password" placeholder="Ваш пароль">
+                        <button class="autorization__button">Войти</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <script src="js/button.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/autorization.js"></script>
+</body>
+</html>

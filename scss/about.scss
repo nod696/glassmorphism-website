@@ -1,0 +1,40 @@
+
+
+
+.about__content{
+    height: 70vh;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+.about__title{
+    align-self: center;
+    text-decoration: underline;
+    justify-self: center;
+    grid-area: 1 / 2 / 1 / 2;
+    color: #00BFFF;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about__text{
+   grid-area: 2 / 2 / 2 / 2;
+    text-align: center;
+   justify-self: center;
+   color: #fff;
+   font-family: $f;
+}
+
+.about__letters{
+    grid-area: 3 / 2 / 3 / 2;
+    align-self: center;
+    width: 300px;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+.letter__item{
+    width: 80px;
+    height: 120px;
+}

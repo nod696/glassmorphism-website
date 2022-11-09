@@ -1,0 +1,108 @@
+.shop__title{
+    margin-top: 40px;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.shop__inner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.shop__subtitle{
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.shop__form{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+}
+.shop__phone{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: azure;
+    border: none;
+    outline: none;
+}
+.shop__address{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: azure;
+    border: none;
+    outline: none;
+}
+.shop__name{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: azure;
+    border: none;
+    outline: none;
+}
+.shop__payment{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: azure;
+    border: none;
+    outline: none;
+}
+.shop__button{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #00BFFF;
+    border: none;
+    outline: none;
+}
+.shop__sum{
+    font-size: 20px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+.shop__product{
+    height: 40vh;
+    overflow-y: auto;
+    width: 100%;
+}
+.product{
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+}
+.price{
+    color: rgb(19, 164, 248);
+}
+.quantity{
+    color: rgb(19, 164, 248);
+}
+.total{
+    width: 100%;
+}
+.totalTitle{
+    text-align: center;
+    font-size: 30px;
+}
+.totalCost{
+    text-align: center;
+    font-size: 30px;
+}
+.delete{
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.delete img{
+    width: 40px;
+    height: 40px;
+}

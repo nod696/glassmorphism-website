@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Круги -->
+    <div class="circle1"></div>
+    <div class="circle2"> </div>
+    <div class="circle3"></div>
+    <!-- Бэкграунд -->
+    <main class="main__background">
+    <!-- Главная -->
+        <section class="main">
+                <div class="main__inner">
+                    <button class="nav__button"></button>
+                    <header class="header">
+                        <nav class="header__nav">
+                            <a href="#">
+                                <img src="images/logo.png" alt="#" class="logo">
+                            </a>
+                            <ul class="header__navigation">
+            
+                                <li class="nav__link"><a href="#" class="nav__item nav__item-active">Главная</a></li>
+                                <li class="nav__link"><a href="about.html" class="nav__item">О нас</a></li>
+                                <li class="nav__link">
+                                    <a href="catalog.html" class="nav__item nav__item">Каталог</a>
+                                    <ul class="subnav">
+                                        <li class="subnav__item"><a class="subnav__link" href="europe.html">Европа</a></li>
+                                        <li class="subnav__item"><a class="subnav__link" href="asia.html">Азия</a></li>
+                                        <li class="subnav__item"><a class="subnav__link" href="america.html">Америка</a></li>
+                                        <li class="subnav__item"><a class="subnav__link" href="africa.html">Африка</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__link"><a href="delivery.html" class="nav__item">Контакты</a></li>
+                                <li class="nav__link"><button class="nav__item autorization">Войти</button></li>
+                                
+                            </ul>
+                            <div class="social__media">
+                                <a href="shop.html" class="shop__link">
+                                    <img src="images/shop.png" alt="" class="shop__icon">
+                                </a>
+                                <a href="#">
+                                    <img src="images/1.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/2.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/3.svg" alt="#" class="social">
+                                </a>
+                            </div>
+                        </nav>
+                    </header>
+                    <div class="main__content">
+                        <h2 class="side__title">Служба доставки <span>Тотем</span></h2>
+                        <h1 class="main__title"><span>Такого </span> вы еще не пробовали!</h1>
+                        <p class="promo__error">Доступно только авторизованным пользователям</p>
+                        <a href="#" class="promotion">
+                            <img src="images/promo.png" alt="#" class="promo">
+                        </a>
+                        <div class="swiper swiper-main">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide-main">
+                                    <img src="images/sannakchi.jpg" alt="#" class="img">
+                                    <div class="product__info">
+                                        <div class="product__name">Саннакчи</div>
+                                        <a href="asia.html" class="price__anchor">Узнать больше</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-main">
+                                   
+                                    <img src="images/drunkenshrimp.jpg" alt="#" class="img">
+                                    <div class="product__info">
+                                        <div class="product__name">Пьяная креветка</div>
+                                        <a href="america.html" class="price__anchor">Узнать больше</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-main">
+                            
+                                    <img src="images/haggis.jpg" alt="#" class="img">
+                                    <div class="product__info">
+                                        <div class="product__name">Хаггис</div>
+                                        <a href="europe.html" class="price__anchor">Узнать больше</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-main">
+                            
+                                    <img src="images/kasumarzu.jpg" alt="#" class="img">
+                                    <div class="product__info">
+                                        <div class="product__name">Казу-марцу</div>
+                                        <a href="europe.html" class="price__anchor">Узнать больше</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide slide-main">
+                            
+                                    <img src="images/koolickles.jpg" alt="#" class="img">
+                                    <div class="product__info">
+                                        <div class="product__name">Сладкие огурцы</div>
+                                        <a href="america.html" class="price__anchor">Узнать больше</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                  
+                    </div>
+                </div>
+                <div class="autorization__wrapper">
+                    <button class="close__btn">
+                        <img src="images/close.png" alt="" class="close__icon">
+                    </button>
+                    <form class="autorization__form">
+                        <h2 class="autorization__title">Заполните поля для входа</h2>
+                        <input type="email" class="email" placeholder="Ваш email">
+                        <input type="password" class="password" placeholder="Ваш пароль">
+                        <button class="autorization__button">Войти</button>
+                    </form>
+                </div>
+               
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/autorization.js"></script>
+    <script src="js/button.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script> 
+     const swiper = new Swiper('.swiper', {
+   
+        loop: true,
+        navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+      
+      });
+      </script>
+</body>
+</html>

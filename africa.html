@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <div class="circle1"></div>
+    <div class="circle2"> </div>
+    <div class="circle3"></div>
+    <main class="main__background">
+       
+      
+        <section class="main">
+           
+                <div class="main__inner">
+                    <button class="nav__button"></button>
+                    <header class="header">
+                        <nav class="header__nav">
+                            <a href="#">
+                                <img src="images/logo.png" alt="#" class="logo">
+                            </a>
+                            <ul class="header__navigation">
+            
+                                <li><a href="index.html" class="nav__item">Главная</a></li>
+                                <li><a href="about.html" class="nav__item">О нас</a></li>
+                                <li><a href="catalog.html" class="nav__item nav__item-active">Каталог</a></li>
+                                <li><a href="delivery.html" class="nav__item">Контакты</a></li>
+                                <li class="nav__link"><button class="nav__item autorization">Войти</button></li>
+                                
+                            </ul>
+                            <div class="social__media">
+                                <a href="shop.html" class="shop__link">
+                                    <img src="images/shop.png" alt="" class="shop__icon">
+                                    <span>0</span>
+                                </a>
+                                <a href="#">
+                                    <img src="images/1.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/2.svg" alt="#" class="social">
+                                </a>
+                                <a href="#">
+                                    <img src="images/3.svg" alt="#" class="social">
+                                </a>
+                            </div>
+                         
+                        </nav>
+                    </header>
+
+                    <!-- Подкаталог -->
+                    <div class="category__content">
+                        <h1 class="category__title"><span>Африканская кухня</span></h1>
+                        <div class="swiper swiper-container-category">
+                            <div class="swiper-wrapper swiper-wrapper-africa">
+         
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-category"></div>
+                    </div>
+                        </div>
+
+                <!-- Модальное окно -->
+                <div class="modal">
+                    <div class="modal__inner">
+                        <img src="images/piramydhead.png" alt="#" class="modal__image">
+                        <div class="modal__about">
+                            <h3 class="modal__title"></h3>
+                            <div class="modal__text"></div>
+                            <div class="modal__price"></div>
+                        </div>
+          
+          
+                    </div>
+                </div>
+           <div class="main__overlay"></div> 
+           <div class="autorization__wrapper">
+            <button class="close__btn">
+                <img src="images/close.png" alt="" class="close__icon">
+            </button>
+            <form class="autorization__form">
+                <h2 class="autorization__title">Заполните поля для входа</h2>
+                <input type="email" class="email" placeholder="Ваш email">
+                <input type="password" class="password" placeholder="Ваш пароль">
+                <button class="autorization__button">Войти</button>
+            </form>
+        </div>
+        </section>
+   
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/autorization.js"></script>
+    <script type="module" src="js/catalog.js"></script>
+    <script type="module" src="js/africa.js"></script>
+    <script type="module" src="js/modal.js"></script>
+    <script type="module" src="js/shop.js"></script>
+    <script src="js/button.js"></script>
+    <script type="module"> 
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 200,
+           loop: false,
+           navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+     pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+     }
+         });
+         </script>
+</body>
+</html>

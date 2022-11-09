@@ -1,0 +1,60 @@
+
+.promo__content{
+    height: 70vh;
+    
+}
+.promo__title{
+   
+    text-decoration: underline;
+   margin-top: 30px;
+
+    color: #00BFFF;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+
+
+.promo__themes{
+    width: 500px;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo__item{
+    cursor: pointer;
+    color: #fff;
+    font-family: $f;
+    &.active{
+       border-bottom: 4px solid #00BFFF; 
+    }
+}
+.promo__inner{
+    width: 700px;
+    backdrop-filter: blur(10rem);
+    z-index: 3;
+    background-color: azure;
+    background: linear-gradient(to bottom, rgba(0,0,0, .3), rgba(0,0,0, .3)); 
+    -webkit-box-shadow: 0px 20px 20px 15px rgba(27, 128, 206, 0.2);
+    -moz-box-shadow: 0px 20px 20px 15px rgba(27, 128, 206, 0.2);
+    box-shadow: 0px 20px 20px 15px rgba(27, 128, 206, 0.2);
+    margin: 50px auto 0 auto;
+    
+    height: 350px;
+    overflow-y: auto;
+}
+.promo__inner-title{
+    color: #fff;
+    font-size: 26px;
+    font-family: $f;
+}
+
+.promo__text{
+    color: #fff;
+    font-family: $f;
+}
