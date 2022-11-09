@@ -12,7 +12,7 @@ let ID = function () {
 
 const dataPageEurope = [
     {
-        img: "../images/haukarl.jpg",
+        img: "./images/haukarl.jpg",
         name: "Хаукарль",
         price: 700,
         description: "Исландское национальное блюдо, представляющее собой частично разложившееся, а затем завяленное мясо гренландской полярной акулы либо гигантской акулы.",
@@ -20,7 +20,7 @@ const dataPageEurope = [
         id: "34654342",
     },
     {
-        img: "../images/surströmming.jpg",
+        img: "./images/surströmming.jpg",
         name: "Сюрстремминг",
         price: 200,
         description: "Шведский национальный продукт, представляющий собой консервированную квашеную сельдь.",
@@ -28,7 +28,7 @@ const dataPageEurope = [
         id: "5342242",
     },
     {
-        img: "../images/lutefisk.jpg",
+        img: "./images/lutefisk.jpg",
         name: "Лютефиск",
         price: 300,
         description: "Рыба в щелочи",
@@ -36,7 +36,7 @@ const dataPageEurope = [
         id: "5322142",
     },
     {
-        img: "../images/kasumarzu.jpg",
+        img: "./images/kasumarzu.jpg",
         name: "Казу-марцу",
         price: 600,
         description: "Вид производимого на Сардинии сыра, известного содержанием в нём живых личинок сырной мухи.",
@@ -44,7 +44,7 @@ const dataPageEurope = [
         id: "53ft242",
     },
     {
-        img: "../images/haggis.jpg",
+        img: "./images/haggis.jpg",
         name: "Хаггис",
         price: 250,
         description: "Национальное шотландское блюдо из бараньих потрохов (сердца, печени и лёгких), порубленных с луком, толокном, салом, приправами и солью и сваренных в бараньем желудке.",
@@ -52,7 +52,7 @@ const dataPageEurope = [
         id: "5324285",
     },
     {
-        img: "../images/kiwiak.jpg",
+        img: "./images/kiwiak.jpg",
         name: "Кивиак",
         price: 200,
         description: "Кивиак — праздничное блюдо: в шкуру тюленя помещают около 400 чистиков, выпускают из шкуры воздух, запечатывают её салом и помещают в землю под пресс (камень) на 3—18 месяцев.",

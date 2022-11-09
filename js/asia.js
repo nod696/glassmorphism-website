@@ -3,7 +3,7 @@ import { getModalItems, getOverlay } from "./modal.js";
 import { getItemShop } from "./shop.js";
 const dataPageAsia = [
     {
-        img: "../images/birdnestsoup.jpg",
+        img: "./images/birdnestsoup.jpg",
         name: "Суп из птичьего гнезда",
         price: 788,
         description: "Гнёзда некоторых видов саланган, обитающих в странах Юго-Восточной Азии.",
@@ -11,7 +11,7 @@ const dataPageAsia = [
         id: "42131",
     },
     {
-        img: "../images/sannakchi.jpg",
+        img: "./images/sannakchi.jpg",
         name: "Саннакчи",
         price: 700,
         description: "Представляет собой приправленного кунжутным маслом и посыпанного кунжутом живого осьминога. Осьминога режут на мелкие кусочки и немедленно подают, так что кусочки ещё шевелятся. ",
@@ -19,7 +19,7 @@ const dataPageAsia = [
         id: "8565",
     },
     {
-        img: "../images/copiluvak.jpg",
+        img: "./images/copiluvak.jpg",
         name: "Копи-лувак",
         price: 566,
         description: "Процесс производства зёрен кофе копи-лювак состоит в том, что мусанги поедают спелые плоды кофейного дерева (кофейные вишни), переваривают окружающую кофейные зёрна мякоть и испражняют зёрнышки кофе, которые затем собираются людьми, моются и сушатся на солнце.",
@@ -27,7 +27,7 @@ const dataPageAsia = [
         id: "552",
     },
     {
-        img: "../images/driedlizard.jpg",
+        img: "./images/driedlizard.jpg",
         name: "Сушеные ящерицы",
         price: 150,
         description: "Комментарии излишни",
@@ -35,7 +35,7 @@ const dataPageAsia = [
         id: "89654",
     },
     {
-        img: "../images/hush.jpg",
+        img: "./images/hush.jpg",
         name: "Хаш",
         price: 800,
         description: "Жидкое горячее блюдо с рубцами.",
@@ -43,7 +43,7 @@ const dataPageAsia = [
         id: "73211",
     },
     {
-        img: "../images/aping.jfif",
+        img: "./images/aping.jfif",
         name: "А-пинг",
         price: 555,
         description: "Жареные пауки",
@@ -51,7 +51,7 @@ const dataPageAsia = [
         id: "4346",
     },
     {
-        img: "../images/fugu.jfif",
+        img: "./images/fugu.jfif",
         name: "Фугу",
         price: 700,
         description: "Известная своей токсичностью рыба",
@@ -59,7 +59,7 @@ const dataPageAsia = [
         id: "42121",
     },
     {
-        img: "../images/ikizikuri.jpg",
+        img: "./images/ikizikuri.jpg",
         name: "Икизикури",
         price: 550,
         description: "Выпотрошенная живая рыба",
@@ -67,7 +67,7 @@ const dataPageAsia = [
         id: "9341",
     },
     {
-        img: "../images/balut.jpg",
+        img: "./images/balut.jpg",
         name: "Балют",
         price: 400,
         description: "Популярное блюдо восточной кухни, представляющее собой варёное утиное яйцо, в котором уже сформировался плод с оперением, хрящами и клювом.",
@@ -75,7 +75,7 @@ const dataPageAsia = [
         id: "97655649",
     },
     {
-        img: "../images/eggs.webp",
+        img: "./images/eggs.webp",
         name: "Столетние яйца",
         price: 150,
         description: "Популярная закуска китайской кухни; представляет собой яйцо, выдержанное несколько месяцев в специальной смеси без доступа воздуха. ",

@@ -3,7 +3,7 @@ import { getModalItems, getOverlay } from "./modal.js";
 import { getItemShop } from "./shop.js";
 const dataPageAfrica = [
     {
-        img: "../images/mopane.jpg",
+        img: "./images/mopane.jpg",
         name: "Гусеницы Мопане",
         price: 100,
         description: "Деликатес из жареных гусениц",
@@ -11,7 +11,7 @@ const dataPageAfrica = [
         id: "9657",
     },
     {
-        img: "../images/eforiro.jpg",
+        img: "./images/eforiro.jpg",
         name: "Эфо-риро",
         price: 666,
         description: "Овощной суп с орехами",

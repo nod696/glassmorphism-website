@@ -3,7 +3,7 @@ import { getModalItems, getOverlay } from "./modal.js";
 import { getItemShop } from "./shop.js";
 const dataPageAmerica = [
     {
-        img: "../images/eskamoles.jpg",
+        img: "./images/eskamoles.jpg",
         name: "Эскамолес",
         price: 555,
         description: "Яйца местных гигантских черных муравьев рода лиометопум.",
@@ -11,7 +11,7 @@ const dataPageAmerica = [
         id: "86465",
     },
     {
-        img: "../images/drunkenshrimp.jpg",
+        img: "./images/drunkenshrimp.jpg",
         name: "Пьяная креветка",
         price: 450,
         description: "Креветка, маринованная в пиве",
@@ -19,7 +19,7 @@ const dataPageAmerica = [
         id: "643523",
     },
     {
-        img: "../images/oysters.jfif",
+        img: "./images/oysters.jfif",
         name: "Устрицы Скалистых гор",
         price: 555,
         description: "Романтичное название, придуманное американцами для блюда из бычьих семенников.",
@@ -27,7 +27,7 @@ const dataPageAmerica = [
         id: "95674",
     },
     {
-        img: "../images/koolickles.jpg",
+        img: "./images/koolickles.jpg",
         name: "Сладкие огурцы",
         price: 100,
         description: "Сладкие огурцы",
@@ -35,7 +35,7 @@ const dataPageAmerica = [
         id: "663242",
     },
     {
-        img: "../images/uitlakoche.webp",
+        img: "./images/uitlakoche.webp",
         name: "Уитлакоче",
         price: 400,
         description: "Зерна кукурузы, пораженные грибком вида Ustilago maydis (пузырчатая головня кукурузы). ",
@@ -43,7 +43,7 @@ const dataPageAmerica = [
         id: "08756",
     },
     {
-        img: "../images/burgerdonat.jpg",
+        img: "./images/burgerdonat.jpg",
         name: "Бургер-пончик",
         price: 150,
         description: "Бургер-пончик",
@@ -51,7 +51,7 @@ const dataPageAmerica = [
         id: "7456332",
     },
     {
-        img: "../images/congrio.jpg",
+        img: "./images/congrio.jpg",
         name: "Бульон конгрио",
         price: 300,
         description: "Чилийский суп с рыбой",
